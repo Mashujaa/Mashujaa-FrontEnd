@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Mashujaa-FrontEnd/static/css/main.abb38962.css",
+    "main.js": "/Mashujaa-FrontEnd/static/js/main.b04c5469.js",
+    "static/js/787.63f04d85.chunk.js": "/Mashujaa-FrontEnd/static/js/787.63f04d85.chunk.js",
+    "static/media/RoundedMplus1c-Bold.ttf": "/Mashujaa-FrontEnd/static/media/RoundedMplus1c-Bold.8849f5aa96bc5375ca93.ttf",
+    "static/media/RoundedMplus1c-Medium.ttf": "/Mashujaa-FrontEnd/static/media/RoundedMplus1c-Medium.4bd40180d7c42d4f6f8d.ttf",
+    "static/media/RoundedMplus1c-Regular.ttf": "/Mashujaa-FrontEnd/static/media/RoundedMplus1c-Regular.51c1601287f5137b32e2.ttf",
+    "static/media/Inter-SemiBold.otf": "/Mashujaa-FrontEnd/static/media/Inter-SemiBold.281fd279f1bbf7e8d0d9.otf",
+    "static/media/Inter-Regular.otf": "/Mashujaa-FrontEnd/static/media/Inter-Regular.e9b898342ed8036ee8ea.otf",
+    "static/media/shujaa.png": "/Mashujaa-FrontEnd/static/media/shujaa.4b9de1fefab8d3edd124.png",
+    "static/media/colorful.png": "/Mashujaa-FrontEnd/static/media/colorful.b9835dc7c53b8a2fc75f.png",
+    "index.html": "/Mashujaa-FrontEnd/index.html",
+    "main.abb38962.css.map": "/Mashujaa-FrontEnd/static/css/main.abb38962.css.map",
+    "main.b04c5469.js.map": "/Mashujaa-FrontEnd/static/js/main.b04c5469.js.map",
+    "787.63f04d85.chunk.js.map": "/Mashujaa-FrontEnd/static/js/787.63f04d85.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abb38962.css",
+    "static/js/main.b04c5469.js"
+  ]
+}
