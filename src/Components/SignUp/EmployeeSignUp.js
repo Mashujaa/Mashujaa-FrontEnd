@@ -83,7 +83,6 @@ class Form extends Component {
           "state/province": this.state.employeeState_Province,
           "postal/zipcode": this.state.employeePostalCode,
           telephone_number: this.state.employeeNumber
-
         })
       })
       .then(reponse => reponse.json())
