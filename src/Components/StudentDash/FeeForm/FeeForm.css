@@ -1,0 +1,139 @@
+.FeeContainer {
+  /* height: 100vh; */
+  width: 90%;
+  background: #dffff9;
+  /* justify-content: center; */
+  /* margin-left: 15%; */
+  /* margin-right: 15%; */
+  /* box-shadow: 2px 3px 10px black; */
+  /* border: 2px solid black; */
+  height: 100%;
+}
+.FeeStatementFeeStructureContainer {
+  display: flex;
+  justify-content: space-around;
+  /* margin-top: 20px; */
+  flex-direction: row;
+  /* border: 2px solid rgb(122, 0, 0);
+  background: green; */
+  /* border: 2px solid black; */
+  min-height: fit-content;
+}
+
+.FeeStatementStudentDetails {
+  width: 80%;
+  height: 100%;
+  margin-top: 80px;
+  /* margin-right: 15%; */
+  /* background-color: gray;
+  border: 2px solid rgb(122, 0, 0); */
+  /* border: 2px solid rgb(122, 0, 0); */
+}
+.FeeStatement {
+  width: 80%;
+  height: 100%;
+  margin-top: 20px;
+  /* background: tan; */
+  /* border: 2px solid rgb(122, 0, 0); */
+}
+.FeeStatement h2 {
+  text-align: center;
+  font-family: "RoundedMplus1c-Bold";
+}
+.FeeStructure h4 {
+  margin-left: 18%;
+  font-family: "RoundedMplus1c-Bold";
+}
+.Admission label {
+  margin-top: 40px;
+}
+.FeeStructure {
+  width: 100%;
+  height: 65%;
+  margin-top: 20px;
+  overflow-y: scroll;
+  /* border: 2px solid black; */
+  /* background: teal;
+  border: 2px solid rgb(122, 0, 0); */
+  /* border: 2px solid rgb(122, 0, 0); */
+}
+
+.FeeStatementInput {
+  flex-direction: column;
+}
+
+.Department,
+.Programme,
+.StudentName,
+.StudentRegistration,
+.Class {
+  margin-top: 10px;
+  margin-left: 5%;
+  font-size: 87%;
+}
+.Programme label,
+.Programme label,
+.StudentName label,
+.Department label,
+.SchoolFaculty label,
+.StudentType label,
+.StudentRegistration label,
+.Admission label,
+.Year label,
+.Term label,
+.Class label,
+.Session label {
+  font-family: "RoundedMplus1c-Regular";
+  font-weight: 600;
+  font-size: 87%;
+}
+
+.Admission,
+.Year,
+.Term,
+.Session,
+.StudentType,
+.SchoolFaculty {
+  margin-top: 10px;
+  font-size: 87%;
+}
+.FeeStructureAcademicYear {
+  /* background: greenyellow; */
+  margin-top: 0;
+
+}
+
+.FeeStructureAcademicYear p {
+  cursor: pointer;
+  font-family: "RoundedMplus1c-Regular";
+  display: flex;
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+  margin-left: 4%;
+  padding: 5px;
+  border-bottom: 1px solid black;
+  max-width: max-content;
+}
+.FeeStructureAcademicYear p:hover{
+  border-radius: 5px 5px 5px 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  box-shadow: 2px 3px 8px black;
+}
+.FeeStructureAcademicYear p:active{
+  background-color: white;
+}
+.FeeStructureAcademicYear h5 {
+  font-family: "RoundedMplus1c-Regular";
+  font-weight: lighter;
+  margin-left: 4%;
+}
+.FeeStructurStudentDetails h5 {
+  font-family: "RoundedMplus1c-Regular";
+  margin-left: 4%;
+}
+.Class label,
+.Session label {
+  font-family: "RoundedMplus1c-Regular";
+  font-weight: 600;
+}

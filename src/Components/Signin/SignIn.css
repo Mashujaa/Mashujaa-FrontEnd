@@ -1,0 +1,61 @@
+.signInContainer{
+    padding: 20px 0px 20px 0px;
+    /* border: 2px solid black; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+
+}
+.signIn{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+    box-shadow: 2px 4px 7px black;
+}
+
+.signInDesktopView{
+    background-color: white;
+
+    width: 50%;
+    /* border: 2px solid black; */
+}
+
+
+.signInImage{
+    width: 100%;
+    height: 65%;
+    /* border: 2px solid black; */
+}
+
+.signInTitle{
+    text-align: center;
+    font-size: 400%;
+    margin: 0;
+    color: #06283D;
+    font-family: 'RoundedMplus1c-Bold';
+
+}
+
+.signInForm{
+    /* border: 2px solid black; */
+    background-color: rgb(219, 255, 247);
+    width: 50%;
+
+}
+
+@media  screen and (max-width: 950px) {
+    .signInDesktopView{
+        width: 0%;
+    }
+
+    .signInForm{
+        width: 90%;
+    
+    }
+    .signInTitle{
+        font-size: 0%;
+    
+    }
+}

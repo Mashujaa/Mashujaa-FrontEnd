@@ -1,0 +1,30 @@
+/* .lecturerHome{
+    border: 2px solid black;
+    width: 70%;
+    height: 70%;
+} */
+.lecturerHome h1{
+    /* border: 2px solid black; */
+    font-family: "RoundedMplus1c-Bold";
+    text-align: center;
+}
+.lecturerHome .lecturerHomeUpcomingClasses{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    /* width: 100%;
+    height: 70%; */
+    margin-left: 23px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    font-family: "RoundedMplus1c-Regular";
+}
+.lecturerHome .lecturerHomeUpcomingClasses h2{
+    font-size: 170%;
+}
+.lecturerHome .lecturerHomeUpcomingClasses p{
+    font-size: 120%;   
+}

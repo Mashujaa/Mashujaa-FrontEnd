@@ -1,0 +1,38 @@
+table {
+  font-family: "RoundedMplus1c-Regular";
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 75%;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+  /* font-weight: 800; */
+
+}
+.tableTitles th{
+  font-weight: bolder;
+}
+.Year1 h4 {
+  font-family: "RoundedMplus1c-Regular";
+}
+.FeeStatementDetails {
+  align-content: center;
+  /* display: flex; */
+  width: 70%;
+  /* background: #dffff9; */
+  margin-top: 20px;
+  margin-left: 0%;
+  margin-right: 20%;
+  box-shadow: 2px 3px 10px black;
+  /* padding: 10px 0px 10px 30px; */
+  min-height: fit-content;
+  padding-left: 0;
+  height: 100%;
+  /* border: 2px solid black; */
+}
+/* * {
+  background: #dffff9;
+} */

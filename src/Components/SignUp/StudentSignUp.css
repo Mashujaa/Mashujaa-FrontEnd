@@ -1,0 +1,217 @@
+.signUpContainer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.signUp {
+  width: 55%;
+  /* border: 2px solid rgb(122, 0, 0); */
+  background-color: #DFFFF9;
+  box-shadow: 2px 3px 10px black;
+  padding: 10px 20px 10px 20px;
+}
+.signUp button{
+  background-color: #256d85;
+  font-family: "RoundedMplus1c-Bold";
+  font-size: 110%;
+  padding: 10px 25px;
+  border: 0;
+  color: white;
+  border-radius: 5px 5px 5px 5px;
+  transition: all 0.2s;
+}
+.signUp button:hover {
+  background: #194958;
+  box-shadow: 1px 2px 4px black;
+}
+
+.signUp button:active {
+  background: #06283D;
+}
+.signUpIntro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signUpIntro h1 {
+  font-family: "RoundedMplus1c-Bold";
+  font-size: 170%;
+  margin: 0;
+}
+.signUpIntro p {
+  font-family: "RoundedMplus1c-Light";
+  font-size: 100%;
+  margin: 0;
+}
+
+.signUpIntro img {
+  /* border: 2px solid black; */
+  width: 200px;
+}
+
+.signUpStudent p {
+  font-size: 110%;
+  font-family: "RoundedMplus1c-Regular";
+}
+
+.signUpStudentNameInput input,
+.signUpStudentIDInput input,
+.signUpStudentGenderInput input,
+.signUpStudentStreetAddress input {
+  padding: 7px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #DFFFF9;
+  border: 1px solid black;
+  width: 30%;
+}
+
+.signUpStudentNameInput .signUpStudentNameInputLastName {
+  margin-left: 80px;
+}
+
+.signUpStudentBirthInput input {
+  padding: 7px;
+  width: 5%;
+  margin-right: 20px;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid black;
+  background-color: #DFFFF9;
+}
+
+#StudentGender{
+  padding: 7px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #DFFFF9;
+  border: 1px solid black;
+  width: 30%;
+}
+.signUpStudentBirthInput .dateInput{
+  width: 15px;
+}
+
+.signUpStudentEmailAddressInput input,
+.signUpStudentAddress input,
+.signUpStudentPostalZipInput input,
+.signUpStudentCellPhoneNumberInput input,
+.signUpStudentRelationshipInput input {
+  width: 30%;
+  padding: 7px;
+  margin-right: 20px;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid black;
+  background-color: #DFFFF9;
+}
+.signUpStudentAddress input {
+  width: 50%;
+}
+.signUpStudentStreetAddresscity .signUpStudentStreetAddressState {
+  margin-left: 80px;
+}
+.signUpStudentPostalZipInput input {
+  width: 50%;
+  margin-top: 20px;
+}
+.signUpStudentName h5 {
+  font-size: 100%;
+  font-weight: 300;
+  font-family: "RoundedMplus1c-Bold";
+}
+
+.signUpStudentNameInput .signUpStudentNameInputLastName {
+  margin-left: 80px;
+}
+
+.signUpStudentBirthInput input {
+  padding: 7px;
+  width: 5%;
+  margin-right: 20px;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid black;
+}
+/* .month input {
+  width: 10%;
+} */
+
+.signUpStudentGenderInput input {
+  width: 20%;
+}
+.signUpStudentEmailAddressInput input,
+.signUpStudentAddress input,
+.signUpStudentPostalZipInput input,
+.signUpStudentCellPhoneNumberInput input,
+.signUpStudentRelationshipInput input {
+  width: 30%;
+  padding: 7px;
+  margin-right: 20px;
+  border-radius: 5px 5px 5px 5px;
+  border: 0.5px solid black;
+}
+.signUpStudentAddress input {
+  width: 50%;
+  border-style: outset;
+}
+.signUpStudentStreetAddresscity .signUpStudentStreetAddressState {
+  margin-left: 80px;
+}
+.signUpStudentPostalZipInput input {
+  width: 50%;
+  margin-top: 20px;
+}
+.signUpStudentName h5 {
+  font-size: 100%;
+  font-weight: 300;
+  font-family: "RoundedMplus1c-Regular";
+}
+
+.Submit {
+  background: #256d85;
+  width: max-content;
+  padding: 16px 100px;
+  border: 0;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.45);
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 40px;
+  color: white;
+  font-family: "RoundedMplus1c-Bold";
+  transition: all 0.2s;
+}
+.Btn {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.Submit:hover {
+  background: #194958;
+}
+
+.Submit:active {
+  background: #06283D;
+}
+
+
+.signUpStudentName,
+.signUpStudentID,
+.signUpStudentBirth,
+.signUpStudentGender,
+.signUpStudentEmailAddress,
+.signUpStudentAddress,
+.signUpStudentStreetAddress,
+.signUpStudentName,
+.signUpStudentCellPhoneNumber,
+.signUpStudentEmailAddress,
+.signUpStudentRelationship h4 {
+  font-family: "RoundedMplus1c-Bold";
+}
+
+.signUp .signupTerms{
+  /* border: 2px solid black; */
+  font-family: 'RoundedMplus1c-Regular';
+  padding-top: 15px;
+  font-size: 80%;
+  margin: 0;
+}

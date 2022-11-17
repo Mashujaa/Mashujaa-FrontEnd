@@ -1,0 +1,58 @@
+.curriculum{
+    max-width: max-content;
+    /* border: 2px solid green; */
+    box-shadow: 1px 2px 7px black;
+    padding-right: 20px;
+    color: #06283D;
+}
+
+.curriculum h1{
+    text-align: center;
+    font-size: 180%;
+    font-family: "RoundedMplus1c-Bold";
+}
+.curriculum p{
+    font-family: "RoundedMplus1c-Medium";
+    font-size: 100%;
+}
+.curriculumPersonDetails{
+    padding: 0px 30px;
+}
+.curriculumPersonDetails p{
+    margin: 0;
+}
+
+.curriculumUnits{
+    max-width: 100%;
+    margin-top: 25px;
+    background-image: url('../../../Pictures/pattern.png');
+    background-size: cover;
+    /* border: 2px solid black; */
+    padding: 30px 0px 0px 10px;
+}
+
+.curriculumUnitDisplay p{
+    margin: 0;
+}
+
+.curriculumUnitDisplay div{
+    margin: 15px 0px 40px 0px;
+}
+
+.curriculumUnitDisplaySems{
+    cursor: pointer;
+}
+
+.curriculumUnitDisplayUnitsContent{
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    cursor: default;
+}
+
+.curriculumUnitDisplayUnitsContent p{
+    margin: 10px 0px;
+}
+
+.numbering{
+    width: 90px;
+}

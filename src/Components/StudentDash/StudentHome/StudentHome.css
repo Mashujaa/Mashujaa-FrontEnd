@@ -1,0 +1,29 @@
+.studentHome{
+    /* border: 2px solid black; */
+    width: 70%;
+    height: 70%;
+}
+.studentHome h1{
+    /* border: 2px solid black; */
+    font-family: "RoundedMplus1c-Bold";
+    text-align: center;
+}
+.studentHome .studentHomeUpcomingClasses{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    /* margin-left: 23px; */
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    font-family: "RoundedMplus1c-Regular";
+}
+.studentHome .studentHomeUpcomingClasses h2{
+    font-size: 170%;
+}
+.studentHome .studentHomeUpcomingClasses p{
+    font-size: 120%;   
+}

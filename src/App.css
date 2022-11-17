@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Inter-Regular';
+    src: local('Inter-Regular'), url('./Fonts/Inter-Regular.otf');
+}
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: local('Inter-SemiBold'), url('./Fonts/Inter-SemiBold.otf');
+}
+
+@font-face {
+    font-family: 'RoundedMplus1c-Bold';
+    src: local('RoundedMplus1c-Bold'), url('./Fonts/RoundedMplus1c-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'RoundedMplus1c-Regular';
+    src: local('RoundedMplus1c-Regular'), url('./Fonts/RoundedMplus1c-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'RoundedMplus1c-Medium';
+    src: local('RoundedMplus1c-Medium'), url('./Fonts/RoundedMplus1c-Medium.ttf');
+}

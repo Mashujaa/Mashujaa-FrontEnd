@@ -1,0 +1,108 @@
+.dashSideBarContainer{
+    padding-top: 30px;
+    width: 100%;
+    background-color: white;
+}
+
+.dashSideBarPersonDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    /* border: 2px solid black; */
+}
+
+.dashSideBarPersonDetails div{
+    /* border: 2px solid black; */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.dashSideBarPersonDetails div img{
+    width: 100%;
+}
+
+.dashSideBarPersonDetails h2{
+    font-family: "RoundedMplus1c-Bold";
+    margin: 3px;
+}
+
+.dashSideBarPersonDetails p{
+    margin: 0;
+    font-family: "RoundedMplus1c-Regular";
+    font-weight: 600;
+}
+
+.dashSideBarContentLinks{
+    /* border: 2px solid red; */
+    padding:0px 30px;
+    transition: all 0.2s;
+}
+
+.dashSideBarContentLink{
+    display: flex;
+    padding-left: 10px;
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+    /* border: 2px solid black; */
+}
+.dashSideBarContentLink:hover{
+    box-shadow: 1px 3px 8px black;
+}
+
+.dashSideBarContentLink:active{
+    background-color: #DFFFF9;
+}
+.dashSideBarContentLink div{
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    width: 60px;
+}
+.dashSideBarContentLink div img{
+    width: 35px;
+}
+.dashSideBarContentLink p{
+    font-family: "RoundedMplus1c-Regular";
+    font-weight: 650;
+    font-size: 110%;
+    margin-left: 20px;
+}
+.dashSideBarLogout {
+    margin-top: 40px;
+    padding: 20px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+}
+.dashSideBarLogout button{
+    padding: 13px 65px;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 105%;
+    background-color: #256D85;
+    color: white;
+    font-family: "RoundedMplus1c-Bold";
+    border: 0;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.dashSideBarLogout button:hover{
+    box-shadow: 1px 2px 4px black;
+    background-color: #1d5466;
+}
+.dashSideBarLogout button:active{
+    background-color: #143d4b;
+}
+
+.dashSideBarFooter{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    /* border: 2px solid blue; */
+}
+
+.dashSideBarFooter img{
+    width: 35%;
+}

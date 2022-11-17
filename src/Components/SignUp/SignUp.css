@@ -1,0 +1,60 @@
+.signUpContainer{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.signUp{
+    max-width: fit-content;
+    border: 2px solid rgb(122, 0, 0);
+    padding: 10px;
+}
+
+.signUpIntro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid tomato;
+}
+
+.signUpIntro h1{
+    font-size: 160%;
+    margin: 0;
+}
+.signUpIntro p{
+    font-size: 80%;
+    margin: 0;
+}
+
+.signUpIntro img{
+    border: 2px solid black;
+    width: 200px;
+}
+
+.signUpStudent p{
+    font-size: 110%;
+}
+
+.signUpStudentNameInput input, .signUpStudentIDInput input, .signUpStudentGenderInput input{
+    padding: 7px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: blue;
+    border: 1px solid black;
+    width: 30%;
+}   
+
+.signUpStudentNameInput .signUpStudentNameInputLastName{
+    margin-left: 80px;
+}
+
+.signUpStudentBirthInput input{
+    padding: 7px;
+    width: 2%;
+    margin-right: 20px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid black;
+}
+
+.signUpStudentGenderInput input{
+    width: 20%;
+}

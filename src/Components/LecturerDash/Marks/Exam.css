@@ -1,0 +1,27 @@
+#Unitslist {
+  padding: 10px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: white;
+  border: 1px solid black;
+  width: 50%;
+  margin-left: 10%;
+  margin-top: 10px;
+  font-family: "RoundedMplus1c-Regular";
+}
+.Heading {
+  margin-left: 10%;
+  padding-top: 20px;
+  font-family: "RoundedMplus1c-Bold";
+}
+.listbox {
+  margin-top: 20px;
+  width: 100%;
+  background: #dffff9;
+  max-height: fit-content;
+  height: 100vh;
+  box-shadow: 2px 3px 10px black;
+}
+.listbox{
+  overflow-y: scroll;
+
+}

@@ -1,0 +1,36 @@
+.studentDash{
+    position: relative;
+    height: 150vh;
+    /* overflow-y: scroll; */
+    /* border: 5px solid yellow; */
+}
+/* .studentDashHeader{
+    border: 2px solid black;
+} */
+
+.studentDashSideBar{
+    width: 26%;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 0%;
+}
+
+.studentDashContent{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    width: 74%;
+    background-color: #DFFFF9;
+    height: 100%;
+    padding-top: 30px;
+    /* border: 5px solid rgb(255, 0, 0); */
+    /* overflow-y: scroll; */
+}
+
+.studentDashContent .studentDashContentUnits{
+    overflow-y: scroll;
+    padding: 30px;
+    /* border: 2px solid black; */
+}

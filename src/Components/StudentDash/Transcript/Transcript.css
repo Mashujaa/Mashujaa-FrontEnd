@@ -1,0 +1,51 @@
+.transcriptYears{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+    font-family: 'RoundedMplus1c-Regular';
+    margin-bottom: 30px;
+}
+
+.transcriptYears h1{
+    margin: 0px 4%;
+    padding: 10px;
+    /* border: 2px solid red; */
+    font-size: 130%;
+    max-width: max-content;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.transcriptYears h1:hover{
+    border-radius: 5px 5px 5px 5px;
+
+    box-shadow: 2px 3px 6px black;
+    
+}
+
+.transcriptYears h1:active{
+    background-color: white;
+}
+
+.transcriptContent{
+    margin-bottom: 30px;
+    box-shadow: 2px 3px 6px black;
+}
+.transcriptTable{
+    width: 100%;
+    /* border: 2px solid blue; */
+    font-family: 'RoundedMplus1c-Regular';
+    font-size: 105%;
+
+}
+
+.transcriptTable tr{
+    text-align: center;
+}
+.transcriptTable tr td{
+    padding: 5px;
+}
+
+.transcriptFooter p{
+    font-family: 'RoundedMplus1c-Regular';
+}

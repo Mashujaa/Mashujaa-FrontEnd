@@ -1,0 +1,95 @@
+.logInContainer{
+    display: flex;
+    justify-content: center;
+}
+.logIn{
+    width: max-content;
+    /* border: 2px solid black; */
+    background-color: #DFFFF9;
+    /* padding: 0px 0px 0px 5px; */
+}
+
+.logInImage{
+    width: 280px;
+}
+
+.logIn h2{
+    margin: 0;
+    color: #06283D;
+    font-family: 'RoundedMplus1c-Bold';
+}
+
+.logInEmailInput, .logInPasswordInput input{
+    width: 280px;
+    padding: 20px 10px;
+    font-size: 120%;
+    border: 0;
+    outline: 0;
+    border-radius: 13px 13px 13px 13px;
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.45);
+    margin-top: 15px;
+
+}
+.logInPasswordInput{
+    /* border: 2px solid black; */
+    position: relative;
+    height: 80px;
+}
+
+.logInPasswordInput input, .logInPasswordInput svg{
+    position: absolute;
+    background-color: white;
+}
+
+
+.logInPasswordInput svg{
+    top: 28px;
+    padding: 10px;
+    left: 250px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.logInSignIn{
+    width: 270px;
+    padding: 20px 0px;
+    font-size: 135%;
+    font-family: 'RoundedMplus1c-Bold';
+    border: 0;
+    outline: 0;
+    border-radius: 13px 13px 13px 13px;
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.45);
+    color: white;
+    margin-top: 20px;
+    background-color: #256D85;
+    transition: all 0.1s;
+}
+
+.logInSignIn:hover{
+    background-color: #1c5264;
+}
+.logInSignIn:active{
+    background-color: #06283D;
+}
+.logInCenter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.logInForgotPassword{
+    cursor: pointer;
+    color: #256D85;
+    border-bottom: 1px solid #06283D;
+    text-align: center;
+    font-family: 'Inter-Regular';
+}
+.logInForgotPassword:hover{
+    color: #06283D;
+}
+
+/* 
+06283D
+256D85
+47B5FF
+DFFFF9
+*/

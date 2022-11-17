@@ -1,0 +1,40 @@
+/*  codemafiaboss-Positive Vibz Only */
+#AppProgressBarh3 {
+  font-size: 16px;
+}
+#AppProgressBarh2 {
+  font-size: 24px;
+}
+/* h1 {
+  font-size: 32px;
+} */
+.Milestone{
+  color: #256d85;
+}
+.Milestone h3{
+  font-size: 16px;
+}
+.wrapper {
+  /* background-color: green; */
+  width: 80%;
+  height: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.back {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  background-color: #dce8eb;
+  position: relative;
+  overflow: hidden;
+}
+.front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: 50%;
+  border-radius: 2rem;
+  background-color: #06283d;
+}

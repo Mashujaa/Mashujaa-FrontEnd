@@ -1,0 +1,227 @@
+.EmployeesignUpContainer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.EmployeesignUp {
+  width: 55%;
+  /* border: 2px solid rgb(122, 0, 0); */
+  background-color: #DFFFF9;
+  box-shadow: 2px 3px 10px black;
+  padding: 10px 20px 10px 20px;
+}
+
+.EmployeesignUp button{
+  background-color: #256d85;
+  font-family: "RoundedMplus1c-Bold";
+  font-size: 110%;
+  padding: 10px 25px;
+  border: 0;
+  color: white;
+  border-radius: 5px 5px 5px 5px;
+  transition: all 0.2s;
+}
+.EmployeesignUp button:hover {
+  background: #194958;
+  box-shadow: 1px 2px 4px black;
+}
+
+.EmployeesignUp button:active {
+  background: #06283D;
+}
+
+.EmployeesignUpIntro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.EmployeesignUpIntro h1 {
+  font-family: "RoundedMplus1c-Bold";
+  font-size: 170%;
+  margin: 0;
+}
+.EmployeesignUpIntro p {
+  font-family: "RoundedMplus1c-Light";
+  font-size: 100%;
+  margin: 0;
+}
+
+.EmployeesignUpIntro img {
+  /* border: 2px solid black; */
+  width: 200px;
+}
+
+.signUpEmployee p {
+  font-size: 110%;
+  font-family: "RoundedMplus1c-Regular";
+}
+
+.signUpEmployeeNameInput input,
+.signUpEmployeeIDInput input,
+.signUpEmployeeGenderInput input,
+.signUpEmployeeStreetAddress input {
+  padding: 7px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #DFFFF9;
+  border: 1px solid black;
+  width: 30%;
+}
+
+.signUpEmployeeNameInput .signUpEmployeeNameInputLastName {
+  margin-left: 80px;
+}
+
+.signUpEmployeeBirthInput input {
+  background-color: #DFFFF9;
+  padding: 7px;
+  width: 5%;
+  margin-right: 20px;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid black;
+}
+/* .month input {
+  width: 10%;
+} */
+
+#EmployeeGender{
+  padding: 7px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #DFFFF9;
+  border: 1px solid black;
+  width: 30%;
+}
+.signUpEmployeeBirthInput .dateInput{
+  width: 15px;
+}
+.signUpEmployeeEmailAddressInput input,
+.signUpEmployeeAddress input,
+.signUpEmployeePostalZipInput input,
+.signUpEmployeeCellPhoneNumberInput input {
+  background-color: #DFFFF9;
+  width: 30%;
+  padding: 7px;
+  margin-right: 20px;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid black;
+}
+.signUpEmployeeAddress input {
+  background-color: #DFFFF9;
+
+  width: 50%;
+}
+.signUpEmployeeStreetAddress .signUpEmployeeStreetAddresscity input{
+  background-color: #DFFFF9;
+}
+.signUpEmployeeStreetAddresscity .signUpEmployeeStreetAddressState {
+  background-color: #DFFFF9;
+  margin-left: 80px;
+}
+.signUpEmployeePostalZipInput input {
+  width: 50%;
+  margin-top: 20px;
+}
+.signUpEmployeeName h5 {
+  font-size: 100%;
+  font-weight: 300;
+  font-family: "RoundedMplus1c-Bold";
+}
+
+.signUpEmployeeNameInput .signUpEmployeeInputLastName {
+  margin-left: 80px;
+}
+
+.signUpEmployeeBirthInput input {
+  padding: 7px;
+  width: 5%;
+  margin-right: 20px;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid black;
+}
+/* .month input {
+  width: 10%;
+} */
+
+.signUpEmployeeGenderInput input {
+  width: 20%;
+}
+.signUpEmployeeEmailAddressInput input,
+.signUpEmployeeAddress input,
+.signUpEmployeePostalZipInput input,
+.signUpEmployeeCellPhoneNumberInput input {
+  width: 30%;
+  padding: 7px;
+  margin-right: 20px;
+  border-radius: 5px 5px 5px 5px;
+  border: 0.5px solid black;
+}
+.signUpEmployeeAddress input {
+  width: 50%;
+  border-style: outset;
+}
+
+.signUpEmployeePostalZipInput input {
+  width: 50%;
+  margin-top: 20px;
+}
+.signUpEmployeeName h5 {
+  font-size: 100%;
+  font-weight: 300;
+  font-family: "RoundedMplus1c-Regular";
+}
+
+
+.EBtn button {
+  background: #256d85;
+  width: max-content;
+  padding: 16px 100px;
+  border: 0;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.45);
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 40px;
+  color: white;
+  font-family: "RoundedMplus1c-Bold";
+  transition: all 0.2s;
+}
+.EBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid  black; */
+}
+
+.ESubmit:hover {
+  background: #194958;
+}
+
+.ESubmit:active {
+  background: #06283D;
+}
+.signUpEmployeeName,
+.signUpEmployeeID,
+.signUpEmployeeBirth,
+.signUpEmployeeGender,
+.signUpEmployeeEmailAddress,
+.signUpEmployeeAddress,
+.signUpEmployeeStreetAddress,
+.signUpEmployeeName,
+.signUpEmployeeCellPhoneNumber,
+.signUpEmplyeeEmailAddress,
+h4 {
+  font-family: "RoundedMplus1c-Bold";
+}
+
+.signUpEmployeePostalZipInput input{
+  margin-top: 30px;
+}
+
+.EmployeesignUp .signupTerms{
+  /* border: 2px solid black; */
+  font-family: 'RoundedMplus1c-Regular';
+  padding-top: 15px;
+  font-size: 80%;
+  margin: 0;
+}

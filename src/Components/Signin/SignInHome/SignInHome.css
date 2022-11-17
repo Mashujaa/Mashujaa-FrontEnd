@@ -1,0 +1,67 @@
+.signInHomeContainer{
+    display: flex;
+    justify-content: center;
+    /* padding-top: 10px; */
+    /* padding-left: 30px; */
+    /* border: 2px solid rgb(133, 0, 0); */
+
+}
+
+.signInHome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #DFFFF9;
+    /* border: 2px solid black; */
+    /* box-shadow: 2px 4px 8px black; */
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+.signInHomeImage{
+    width: 280px;
+    /* border: 2px solid rgb(133, 0, 0); */
+
+}
+
+.signInHome h1{
+    color: #06283D;
+    font-size: 250%;
+    opacity: 100%;
+    font-family: 'RoundedMplus1c-Bold';
+}
+
+@media  screen and (min-width: 950px) {
+    .signInHome h1{
+        color: rgb(0, 52, 70, 0);
+        font-size: 150%;
+    }
+}
+
+.signInHome button{
+    width: 270px;
+    padding: 20px 5px;
+    font-size: 130%;
+    font-family: 'RoundedMplus1c-Bold';
+    border: 0;
+    outline: 0;
+    color: #256D85;
+    border-radius: 13px 13px 13px 13px;
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.45);
+    background: white;
+    margin-bottom: 25px;
+    display: block;
+    transition: all 0.1s;
+}
+.signInHome button:hover{
+    color: white;
+    background: #256D85;
+
+}
+
+.signInHome button:active{
+    /* color: white; */
+    background: #06283D;
+
+}
