@@ -3,10 +3,10 @@ import React from "react";
 import {
   // getClassesAt,
   getTimeIntervals,
-} from "../../TableData/TableData";
-import Row from "./componentStyles/Row";
-import Column from "./componentStyles/Column";
-import "./componentStyles/GeneralStyles.css";
+} from "./TableData";
+import Row from "./Row";
+import Column from "./Column";
+import "./GeneralStyles.css";
 import TheTableItems from "./TheTableItems";
 // import Background from "../../../../Pictures/pattern.png";
 

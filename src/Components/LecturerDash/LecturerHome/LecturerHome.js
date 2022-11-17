@@ -1,6 +1,6 @@
-import AssignmentPage from './Assignments/PresentaionLayer/pages/AssignmentPage';
-import { getCurrentClass } from '../../ClassSchedule/TableData/TableData';
-import { getNextClass } from '../../ClassSchedule/TableData/TableData';
+import AssignmentPage from './Assignments/AssignmentPage';
+import { getCurrentClass } from '../../ClassSchedule/TableData';
+import { getNextClass } from '../../ClassSchedule/TableData';
 import './LecturerHome.css'
 
 const LecturerHome = ({ userName }) =>{

@@ -1,8 +1,8 @@
 /*  codemafiaboss-Positive Vibz Only */
 import React from "react";
-import Column from "./componentStyles/Column";
-import "./componentStyles/AppProgressBar.css";
-import Row from "./componentStyles/Row";
+import Column from "./Column";
+import "./AppProgressBar.css";
+import Row from "./Row";
 
 export default function AppProgressBar({
   title = "default words",

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import LecturerDashSideBar from './LecturerDashSideBar/LecturerDashSideBar';
-import AssignmentPage from './Assignments/PresentaionLayer/pages/AssignmentPage';
+import AssignmentPage from './Assignments/AssignmentPage';
 import LecturerHome from './LecturerHome/LecturerHome';
 import TableView from '../ClassSchedule/TableView';
 import './LecturerDash.css';

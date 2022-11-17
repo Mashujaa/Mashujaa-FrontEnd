@@ -1,6 +1,6 @@
 /*  codemafiaboss-Positive Vibz Only */
 import React from "react";
-import AssignmentSection from "../components/AssignmentSection";
+import AssignmentSection from "./AssignmentSection";
 
 export default function AssignmentPage() {
   return (

@@ -1,5 +1,5 @@
-import { getCurrentClass } from '../../ClassSchedule/TableData/TableData';
-import { getNextClass } from '../../ClassSchedule/TableData/TableData';
+import { getCurrentClass } from '../../ClassSchedule/TableData';
+import { getNextClass } from '../../ClassSchedule/TableData';
 import './StudentHome.css'
 
 

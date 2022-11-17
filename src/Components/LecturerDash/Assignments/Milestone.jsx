@@ -1,6 +1,6 @@
 /*  codemafiaboss-Positive Vibz Only */
 import React from "react";
-import "./componentStyles/AppProgressBar.css";
+import "./AppProgressBar.css";
 
 export default function Milestone({
   unit = "SIT 202- Bla bla bla",

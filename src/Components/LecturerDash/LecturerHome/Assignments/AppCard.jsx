@@ -1,7 +1,7 @@
 /*  codemafiaboss-Positive Vibz Only */
 import React from "react";
-import "./componentStyles/AppCard.css";
-import Column from "./componentStyles/Column";
+import "./AppCard.css";
+import Column from "./Column";
 
 export default function AppCard({ children, styles, columnStyles }) {
   return (

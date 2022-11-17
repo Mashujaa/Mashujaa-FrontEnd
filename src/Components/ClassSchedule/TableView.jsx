@@ -1,7 +1,7 @@
 import React from "react";
-import Row from "./Components/components/componentStyles/Row";
-import Column from "./Components/components/componentStyles/Column";
-import TableBox from "./Components/components/TableBox";
+import Row from "./Row";
+import Column from "./Column";
+import TableBox from "./TableBox";
 
 export default function TableView() {
   return (

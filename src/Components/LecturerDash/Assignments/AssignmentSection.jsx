@@ -2,9 +2,9 @@
 import React from "react";
 import AppCard from "./AppCard";
 import AppProgressBar from "./AppProgressBar";
-import Column from "./componentStyles/Column";
-import Row from "./componentStyles/Row";
-import "./componentStyles/GeneralStyles.css";
+import Column from "./Column";
+import Row from "./Row";
+import "./GeneralStyles.css";
 import Milestone from "./Milestone";
 
 export default function AssignmentSection() {

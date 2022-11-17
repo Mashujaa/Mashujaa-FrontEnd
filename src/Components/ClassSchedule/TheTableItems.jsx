@@ -1,11 +1,11 @@
 import React from "react";
-import "./componentStyles/GeneralStyles.css";
-import Row from "./componentStyles/Row";
-import Column from "./componentStyles/Column";
+import "./GeneralStyles.css";
+import Row from "./Row";
+import Column from "./Column";
 import {
   getClassesAt,
   getDaysOfTheWeek,
-} from "../../TableData/TableData";
+} from "./TableData";
 
 export default function TheTableItems() {
   const days = getDaysOfTheWeek();
